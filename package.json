@@ -1,6 +1,6 @@
 {
-  "name": "class-enum",
-  "version": "0.1.1",
+  "name": "@ywroh/class-enum",
+  "version": "0.1.2",
   "description": "Extendable class-enum on typescript",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "build": "rm -rf ./dist ./types && jest && tsc",
     "build:example": "rm -rf ./example/dist && tsc --project ./example"
   },
-  "homepage": "https://github.com/banlife/class-enum.git",
+  "homepage": "https://github.com/ywroh/class-enum.git",
   "keywords": [
     "enum",
     "class",
@@ -23,11 +23,11 @@
     "README-KR.md",
     "README.md"
   ],
-  "author": "banlife <developer@ban-life.com>",
+  "author": "ywroh <ywroh2@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/banlife/class-enum.git"
+    "url": "https://github.com/ywroh/class-enum.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
